@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.alert {
+  border-radius: 0px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+}
+
+.alert a {
+  text-decoration: none;
+}
+
+::selection {
+  color: #fff;
+  background: #5865F2;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F1F1F1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #36393F;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2F3136;
+}
+
+.search-input {
+  background: #FFF;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+.search-input input {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.12);
+}
+
+.search-input .active input {
+  border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box {
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-input.active .autocom-box {
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li {
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-input.active .autocom-box li {
+  display: block;
+}
+
+.autocom-box li:hover {
+  color: white;
+  background: #404EED;
+}
+
+.search-input .icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #5865F2;
+  cursor: pointer;
+}
+
+.card {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 0px 3px 7px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  min-height: 250px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+
+.card .card-footer {
+  border: none;
+  display: flex;
+  outline: none;
+  background: white;
+  align-self: center;
+}
+
+.card h5 {
+  color: #404EED;
+}
+
+.card .card-img-top {
+  height: 180px;
+  cursor: not-allowed;
+  background-color: white;
+  color: #404EED;
+  border: 5px solid white;
+}
+
+.card a {
+  color: white;
+  background-color: #5865F2;
+}
+
+.card a:hover {
+  background-color: #404EED;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("https://theme.zdassets.com/theme_assets/678183/b7e9dce75f9edb23504e13b4699e208f204e5015.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.wrapper {
+  max-width: 950px;
+  margin: 80px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wrapper .content {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.bg-yellow {
+  color: white;
+  background-color: #FEE75C;
+}
+
+.bg-fuchsia {
+  color: white;
+  background-color: #EB459E;
+}
+
+/*# sourceMappingURL=github.bundle.css.map */

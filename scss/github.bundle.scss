@@ -1,0 +1,65 @@
+@use './alerts.bundle.scss';
+@use './webkit.bundle.scss';
+@use './searchbar.min.scss';
+@use './cards.bundle.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+//defining some variables
+$color-white-main: white;
+
+$color-primary-main: #5865F2;
+$color-primary-dark: #404EED;
+
+$color-secondary-main: #36393F;
+$color-secondary-dark: #2F3136;
+$color-secondary-line: #202225;
+
+$color-success-main: #57F287;
+$color-shadows-main: rgba(0,0,0,0.1);
+
+$url-background-main: 'https://theme.zdassets.com/theme_assets/678183/b7e9dce75f9edb23504e13b4699e208f204e5015.png';
+$url-background-late: 'https://theme.zdassets.com/theme_assets/678183/b7e9dce75f9edb23504e13b4699e208f204e5015.png';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url($url-background-main);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.wrapper {
+    max-width: 950px;
+    margin: 80px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper .content {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.bg-yellow {
+    color: white;
+    background-color: #FEE75C;
+}
+
+.bg-fuchsia {
+    color: white;
+    background-color: #EB459E;
+}

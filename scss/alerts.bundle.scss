@@ -1,0 +1,21 @@
+$color-white-main: white;
+
+$color-primary-main: #5865F2;
+$color-primary-dark: #404EED;
+
+$local-alert-config-cursor: no-drop;
+$local-alert-config-border-radius: 0px;
+$local-alert-config-margin-top: 0px;
+$local-alert-config-shadow-box: 3px 3px 3px 3px rgba(0,0,0,0.1);
+
+$local-alert_link-config-decoration: default;
+
+.alert {
+    border-radius: $local-alert-config-border-radius;
+    box-shadow: $local-alert-config-shadow-box;
+    margin-top: $local-alert-config-margin-top;
+}
+
+.alert a {
+    text-decoration: none;
+}

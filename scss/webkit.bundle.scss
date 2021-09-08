@@ -1,0 +1,33 @@
+$color-primary-main: #5865F2;
+$color-primary-dark: #404EED;
+
+$color-secondary-main: #36393F;
+$color-secondary-dark: #2F3136;
+$color-secondary-line: #202225;
+
+$scrollbar-config-width: 10px;
+$scrollbar-config-bg-track: #F1F1F1;
+$scrollbar-config-bg-thumb-main: $color-secondary-main;
+$scrollbar-config-bg-thumb-hover: $color-secondary-dark;
+
+
+::selection{
+    color: #fff;
+    background: $color-primary-main;
+}
+
+::-webkit-scrollbar {
+    width: $scrollbar-config-width;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $scrollbar-config-bg-track;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-config-bg-thumb-main
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: $scrollbar-config-bg-thumb-hover;
+}

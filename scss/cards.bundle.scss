@@ -1,0 +1,61 @@
+//some vars
+$color-primary-main: #5865F2;
+$color-primary-dark: #404EED;
+
+$local-cards-color-bg-main: #FFF;
+$local-cards-color-shadows-main: rgba(0,0,0,0.1);
+
+$local-cards-config-outline: none;
+$local-cards-config-border: none;
+$local-cards-config-font-size: 18px;
+$local-cards-config-height-min: 250px;
+$local-cards-config-overflow-main: hidden;
+$local-cards-config-shadows-box-shadow: 0px 3px 7px 5px $local-cards-color-shadows-main;
+
+$local-cards-footer-config-border: none;
+$local-cards-footer-config-display: flex;
+$local-cards-footer-config-outline: none;
+$local-cards-footer-config-background: white;
+$local-cards-footer-config-alignment-self: center;
+
+.card {
+    outline: $local-cards-config-outline;
+    border: $local-cards-config-border;
+    border-radius: 5px;
+    font-size: $local-cards-config-font-size;
+    box-shadow: $local-cards-config-shadows-box-shadow;
+    overflow: $local-cards-config-overflow-main;
+    min-height: $local-cards-config-height-min;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.card .card-footer {
+    border: $local-cards-footer-config-border;
+    display: $local-cards-footer-config-display;
+    outline: $local-cards-footer-config-outline;
+    background: $local-cards-footer-config-background;
+    align-self: $local-cards-footer-config-alignment-self;
+}
+
+.card h5 {
+    color: $color-primary-dark;
+}
+
+//since the image will be in svg format, we can initialize the bg
+.card .card-img-top {
+    height: 180px;
+    cursor: not-allowed;
+    background-color: white;
+    color: $color-primary-dark;
+    border: 5px solid white;
+}
+
+.card a {
+    color: white;
+    background-color: $color-primary-main;
+}
+
+.card a:hover {
+    background-color: $color-primary-dark;
+}

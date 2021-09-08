@@ -1,0 +1,26 @@
+{
+  "name": "port2",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "js/server.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTinyWeeb/thetinyweeb.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/TheTinyWeeb/thetinyweeb.github.io/issues"
+  },
+  "homepage": "https://github.com/TheTinyWeeb/thetinyweeb.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sass": "^1.39.0",
+    "stylelint": "^13.13.1"
+  }
+}

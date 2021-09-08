@@ -1,0 +1,86 @@
+$color-primary-main: #5865F2;
+$color-primary-dark: #404EED;
+
+$local-search-font-size: 18px;
+$local-search-color-bg-main: #FFF;
+$local-search-color-shadow-box: rgba(0,0,0,0.12);
+
+$local-search-config-width: 100%;
+$local-search-config-border-radius: 5px;
+$local-search-config-position: relative;
+$local-search-config-box_shadow: 0px 1px 5px 3px $local-search-color-shadow-box;
+
+$local-search_input-config-height: 55px;
+$local-search_input-config-width: 100%;
+$local-search_input-config-outline: none;
+$local-search_input-config-border: none;
+$local-search_input-config-border-radius: $local-search-config-border-radius;
+$local-search_input-config-padding: 0 60px 0 20px;
+
+.search-input {
+    background: $local-search-color-bg-main;
+    width: $local-search-config-width;
+    border-radius: $local-search-config-border-radius;
+    position: $local-search-config-position;
+    box-shadow: $local-search-config-box_shadow;
+}
+
+.search-input input {
+    height: $local-search_input-config-height;
+    width: $local-search_input-config-width;
+    outline: $local-search_input-config-outline;
+    border: $local-search_input-config-border;
+    border-radius: $local-search_input-config-border-radius;
+    padding: $local-search_input-config-padding;
+    font-size: $local-search-font-size;
+    box-shadow: $local-search-color-shadow-box;
+}
+
+.search-input .active input {
+    border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search-input.active .autocom-box {
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.autocom-box li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.search-input.active .autocom-box li {
+    display: block;
+}
+
+.autocom-box li:hover {
+    color: white;
+    background: $color-primary-dark;
+}
+
+.search-input .icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: $color-primary-main;
+    cursor: pointer;
+}
