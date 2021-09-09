@@ -16,3 +16,15 @@ const blogs = [{
 }];
 
 window.oncontextmenu = (e) => e.preventDefault();
+
+window.onkeydown = (e) => {
+    if (e.key == "@") return window.scroll({
+        top: 10000,
+        behavior: "smooth"
+    });
+
+    if (e.key == "!") return window.scroll({
+        top: -10000,
+        behavior: "smooth"
+    });
+}

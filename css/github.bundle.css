@@ -139,6 +139,110 @@
   background-color: #404EED;
 }
 
+.key {
+  display: inline-block;
+  padding: 0px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px #999;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: #ebebeb;
+}
+
+.key:active {
+  background-color: #dadada;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.key-success {
+  display: inline-block;
+  padding: 0px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #57F287;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px #43BB69;
+  cursor: pointer;
+}
+
+.key-success:hover {
+  background-color: #4ACF75;
+}
+
+.key-success:active {
+  background-color: #3DAD60;
+  box-shadow: 0 3px #338F50;
+  transform: translateY(4px);
+}
+
+.key-warning {
+  display: inline-block;
+  padding: 0px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #FEE75C;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px #E7CA21;
+  cursor: pointer;
+}
+
+.key-warning:hover {
+  background-color: #E0CA4D;
+}
+
+.key-warning:active {
+  background-color: #F8D92A;
+  box-shadow: 0 3px #ECCC1C;
+  transform: translateY(4px);
+}
+
+.key-danger {
+  display: inline-block;
+  padding: 0px 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #ED4245;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px #B83133;
+  cursor: pointer;
+}
+
+.key-danger:hover {
+  background-color: #D6393C;
+}
+
+.key-danger:active {
+  background-color: #DA3235;
+  box-shadow: 0 3px #A82B2D;
+  transform: translateY(4px);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -171,6 +275,16 @@ h1 {
 .wrapper .content {
   width: 100%;
   margin-top: 80px;
+}
+
+.bg-blurple {
+  color: white;
+  background-color: #404EED;
+}
+
+.bg-black {
+  color: white;
+  background-color: #202225;
 }
 
 .bg-yellow {

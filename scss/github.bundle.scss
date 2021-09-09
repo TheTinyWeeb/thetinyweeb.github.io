@@ -2,6 +2,7 @@
 @use './webkit.bundle.scss';
 @use './searchbar.min.scss';
 @use './cards.bundle.scss';
+@use './keys.bundle.scss';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 //defining some variables
@@ -52,6 +53,16 @@ h1 {
 .wrapper .content {
     width: 100%;
     margin-top: 80px;
+}
+
+.bg-blurple {
+    color: white;
+    background-color: #404EED;
+}
+
+.bg-black {
+    color: white;
+    background-color: #202225;
 }
 
 .bg-yellow {
